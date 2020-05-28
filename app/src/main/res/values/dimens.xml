@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="editTextSize">20sp</dimen>
+    <dimen name="paddingtoplogin">15dp</dimen>
+    <dimen name="textsize">16sp</dimen>
+    <dimen name="textsize1">14sp</dimen>
+    <dimen name="paddinglogin">70sp</dimen>
+    <dimen name="altologo">80sp</dimen>
+    <dimen name="general_padding">16dp</dimen>
+    <dimen name="row_padding">8dp</dimen>
+    <dimen name="image">40dp</dimen>
+    <dimen name="paddingcontacto">40dp</dimen>
+    <dimen name="paddinghora">45dp</dimen>
+    <dimen name="paddingminimo">5dp</dimen>
+    <dimen name="separador">2dp</dimen>
+    <dimen name="edittextusuario">22sp</dimen>
+    <dimen name="edittextusuarioo">40sp</dimen>
+</resources>

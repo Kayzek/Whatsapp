@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="recordarpassword">Olvidó la contraseña?</string>
+    <string name="strlogin">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="etiqllamadas">Llamadas</string>
+    <string name="etiqContactos">Contactos</string>
+    <string name="etiqchats">Chats</string>
+    <string name="etiqhora">22:40</string>
+    <string name="mensaje">Nos vemos en la UNI</string>
+    <string name="mensajedest">Mensajes destacados</string>
+    <string name="whatsapweb">Whatsap Web</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="addgrupo">Agregar grupo</string>
+    <string name="addusuario">Agregar Usuario</string>
+    <string name="etiqUsuario">Usuario:</string>
+    <string name="etiqPassword">Password:</string>
+    <string name="etiqLimpiarUsuarios">Limpiar Usuarios</string>
+    <string name="CrearUsuario">Crear Usuario</string>
+    <string name="ActualizaUsuario">Actualizar Usuario</string>
+    <string name="edit_number">Numero:</string>
+    <string name="hint_number">Numero</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+

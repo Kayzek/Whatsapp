@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <ImageView
+            android:id="@+id/imgcontacto"
+            android:layout_width="@dimen/image"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:paddingLeft="@dimen/paddingminimo"
+            android:src="@drawable/usercircle" />
+
+        <LinearLayout
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtContacto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:gravity="left|bottom"
+                android:text="@string/etiqContactos"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image"
+                android:layout_marginRight="@dimen/paddingminimo"
+                android:gravity="left|top"
+                android:text="@string/mensaje"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txthora"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="left|center"
+            android:paddingRight="@dimen/general_padding"
+            android:text="@string/etiqhora"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+</LinearLayout>

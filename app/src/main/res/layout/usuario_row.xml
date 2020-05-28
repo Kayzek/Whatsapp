@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1.0"
+    android:background="@drawable/selector_fila"
+    android:clickable="true"
+    >
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="@dimen/paddinghora"
+        android:layout_height="@dimen/image"
+        android:layout_weight="0.3"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="@dimen/paddingminimo"
+        android:text="@string/hint_username"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/image"
+        android:layout_weight="0.3"
+        android:layout_marginRight="@dimen/paddingminimo"
+        android:text="@string/hint_password"
+        android:gravity="right|center_vertical"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/image"
+        android:layout_weight="0.3"
+        android:layout_marginRight="@dimen/paddingminimo"
+        android:text="@string/hint_number"
+        android:gravity="right|center_vertical"
+        android:textSize="@dimen/textsize" />
+
+</LinearLayout>
